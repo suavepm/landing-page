@@ -7,7 +7,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 8px 16px;
+    padding: 16px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,14 +21,16 @@ body {
 
 .leftheader {
     display: inline-flex;
-    gap: 8px;
+    gap: 16px;
     align-items: center;
+    margin-left: 72px;
 }
 
 ul {
     list-style-type: none;
     display: inline-flex;
-    gap: 8px;
+    gap: 16px;
+    margin: 0 72px 0 0;
 }
 
 a {
