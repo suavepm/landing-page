@@ -82,6 +82,7 @@ li:hover {
 .subtext {
     color: #E5E7EB;
     margin-bottom: 16px;
+    font-size: 18px;
 }
 
 .full {
@@ -115,7 +116,7 @@ li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    margin: 16px;
 }
 
 .box-container {
@@ -123,18 +124,37 @@ li:hover {
     gap: 16px;
     padding: 16px;
     margin: 16px;
-
+    align-items: center;
 }
 
 .box-text {
     text-align: center;
+    font-size: 16px;
+    color: #6a6a6a;
+    height: 100px;
+    width: 150px;
+    margin-top: 12px;
 }
 
 .box img {
     width: 100px;
     height: 100px;
-    border: 2px solid #3882F6;
+    border: 3px solid #bbbbbb;
     border-radius: 16px;
+}
+
+.box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.box img:hover {
+    box-shadow: 0px 0px 4px 1px rgb(90, 90, 90);
 }
 
 
