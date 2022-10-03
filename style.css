@@ -106,8 +106,17 @@ li:hover {
     color: rgb(190, 190, 190);
 }
 
+/* Content */
 
-
+.heading2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
 
 
 
